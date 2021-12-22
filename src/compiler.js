@@ -6,9 +6,8 @@ const OPCODES = {
   MUL: 1,
   SUB: 2,
   DIV: 3,
-  LOAD: 4,
-  PUSH: 5,
-  RET: 6,
+  PUSH: 4,
+  RET: 5,
 };
 
 class Compiler extends Visitor {
